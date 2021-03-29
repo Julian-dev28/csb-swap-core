@@ -1,21 +1,12 @@
-# Pancake Factory
+Npm install 
 
-[![Actions Status](https://github.com/pancakeswap/pancake-swap-core/workflows/CI/badge.svg)](https://github.com/pancakeswap/pancake-swap-core/actions)
 
-In-depth documentation on PancakeSwap is available at [docs.pancakeswap.finance](https://docs.pancakeswap.finance/).
+Run in Remix 
+1. Import all contracts and Interfaces
+2. Reparse contracts with " import ./.../" to "import (leavefilename).sol
+3. compile
+4. deploy
 
-# Local Development
 
-The following assumes the use of `node@>=10`.
-
-## Install Dependencies
-
-`yarn`
-
-## Compile Contracts
-
-`yarn compile`
-
-## Run Tests
-
-`yarn test`
+Deploy with CLI
+https://docs.openzeppelin.com/learn/deploying-and-interacting
