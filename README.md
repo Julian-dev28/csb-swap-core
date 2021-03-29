@@ -1,14 +1,21 @@
-# csb-swap-core
+# Pancake Factory
 
-To Deploy Contracts by Remix, 
-Import all Contract and Interface files
+[![Actions Status](https://github.com/pancakeswap/pancake-swap-core/workflows/CI/badge.svg)](https://github.com/pancakeswap/pancake-swap-core/actions)
 
-Reparse imports and delete "./.../(leave only solidity filename.sol)
-compile
-deploy
-Interact
+In-depth documentation on PancakeSwap is available at [docs.pancakeswap.finance](https://docs.pancakeswap.finance/).
 
+# Local Development
 
-Interacting with smart contracts via CLI
-https://docs.openzeppelin.com/learn/deploying-and-interacting#interacting-from-the-console
+The following assumes the use of `node@>=10`.
 
+## Install Dependencies
+
+`yarn`
+
+## Compile Contracts
+
+`yarn compile`
+
+## Run Tests
+
+`yarn test`
