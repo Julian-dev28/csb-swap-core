@@ -6,6 +6,7 @@ Run in Remix
 2. Reparse contracts with " import ./.../" to "import (leavefilename).sol
 3. compile
 4. deploy
+5. Most Contracts works in JVM but All contracts work best with Injected Web3 or Web3 Provider
 
 
 Deploy with CLI
